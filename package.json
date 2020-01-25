@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/paopaomo/testing#readme",
   "devDependencies": {
+    "benchmark": "^2.1.4",
     "chai": "^4.2.0",
     "istanbul": "^0.4.5",
     "mocha": "^7.0.0"
