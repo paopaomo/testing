@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/mocha.js"
+    "test": "mocha test/mocha.js",
+    "cover": "istanbul cover _mocha test/mocha.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/paopaomo/testing#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
     "mocha": "^7.0.0"
   }
 }
