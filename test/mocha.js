@@ -1,5 +1,5 @@
 const { should, expect, assert } = require('chai');
-const { add, multiple } = require('../math.js');
+const { add, multiple } = require('../src/math.js');
 
 describe('#math', () => {
     describe('add', () => {
